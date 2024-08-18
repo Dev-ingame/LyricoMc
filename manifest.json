@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "lericomc",
+        "description": "lericomc",
+        "min_engine_version": [1, 19, 60],
+        "uuid": "5382738e-ef68-4cfc-b188-b1f243ed9da2",
+        "version": [0, 0, 1]
+    },  
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "6524e320-8789-4ed3-bb57-c07907cacf6e",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "83d1062e-ae96-41e7-b611-bbd7390ef475",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}
